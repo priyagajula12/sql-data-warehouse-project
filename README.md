@@ -5,16 +5,16 @@ Building a modern data warehouse with SQL Server, including ETL processes, data 
 ---
 
 
-##Project Requirements
+## Project Requirements
 
-####Objective
+#### Objective
 Develop a modern data warehouse using SQL Server to consolidate sakes data ,enabling analytical reporting and informed decision making.
 
-####Specifications
--**Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
--**Data Quality**: Cleanse and resolve data quality issues prior to analysis.
--**Integration**: Combine both sources into a single , user-friendly data model designed for analytical queries.
--**Documentation**:Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+#### Specifications
+- **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
+- **Data Quality**: Cleanse and resolve data quality issues prior to analysis.
+- **Integration**: Combine both sources into a single , user-friendly data model designed for analytical queries.
+- **Documentation**:Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 
 
 ---
@@ -23,11 +23,16 @@ Develop a modern data warehouse using SQL Server to consolidate sakes data ,enab
 
 #### Objective
 Develop SQL-based analytics to deliver detailed insights into:
--**Customer Behavior**
--**Product Performance**
--**Sales Trends**
+- **Customer Behavior**
+- **Product Performance**
+- **Sales Trends**
 
 This insights empower stakeholders with key business metrics , enabling strategic decision-making.
 
 
 ---
+
+
+## License
+This project is licensed under the [MIT License](LICENSE). You are free to use ,modify, and share this project with proper attribution.
+
