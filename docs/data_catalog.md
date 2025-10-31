@@ -44,7 +44,7 @@ Provides information about products and their attributes.
 | category_id          | NVARCHAR(50)  | Unique identifier for the product’s category.                               |
 | category             | NVARCHAR(50)  | Broader classification of the product (e.g., 'Bikes', 'Components').        |
 | subcategory          | NVARCHAR(50)  | Detailed classification of the product within the category (e.g., product type). |
-| maintenance_required | NVARCHAR(50)  | Indicates whether the product requires maintenance (e.g., 'Yes', 'No').     |
+| maintenance | NVARCHAR(50)  | Indicates whether the product requires maintenance (e.g., 'Yes', 'No').     |
 | cost                 | INT           | The base cost or price of the product, measured in monetary units.          |
 | product_line         | NVARCHAR(50)  | The specific product line or series to which the product belongs (e.g., 'Road', 'Mountain'). |
 | start_date           | DATE          | The date when the product became available for sale or use.                 |
@@ -70,16 +70,3 @@ Stores transactional sales data for analytical purposes.
 | quantity      | INT           | The number of units of the product ordered for the line item.               |
 | price         | INT           | The price per unit of the product for the line item, in whole currency units. |
 
----
-
-## Notes
-
-- **Schema:** `gold`
-- **Data Refresh Frequency:** Daily ETL Load  
-- **Data Source Systems:** CRM, ERP, Product Catalog, Sales Platform  
-- **Data Owner:** Data Engineering Team  
-- **Last Updated:** October 2025  
-
----
-
-© 2025 — Data Engineering | [Your GitHub Repository](https://github.com/yourusername/yourrepo)
